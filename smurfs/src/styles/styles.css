@@ -1,0 +1,49 @@
+.SmurfsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.Smurf {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background: #a9b7cf;
+  border: solid 2px #b7cece;
+  border-radius: 5px;
+  width: 15%;
+  margin: 2%;
+  align-items: center;
+}
+
+button {
+  margin: 3% 0;
+  background: #bcc3d6;
+  border: 3px solid #dac2c9;
+  border-radius: 5px;
+  padding: 2%;
+  font-weight: bold;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin: auto;
+}
+
+input,
+textarea {
+  margin-top: 32px;
+  padding: 0.5rem;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  color: black;
+  border: 2px solid #018383;
+  margin-right: auto;
+}

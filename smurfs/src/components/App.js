@@ -4,6 +4,7 @@ import axios from "axios";
 import { SmurfContext } from "../context/context";
 import Form from "./Form";
 import List from "./List";
+import "../styles/styles.css";
 
 const App = () => {
   const [smurfs, setSmurfs] = useState();
@@ -32,6 +33,7 @@ const App = () => {
       <div className="App">
         <h1>SMURFS! 2.0 W/ Redux</h1>
         <Form />
+        <hr></hr>
         <h2>Smurfs List</h2>
         <List />
       </div>
